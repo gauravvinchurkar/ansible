@@ -1,5 +1,5 @@
 - name: role for multios2
-  host: all
+  hosts: all
   become: yes
   roles:
     - multios2
