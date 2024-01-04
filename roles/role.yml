@@ -1,4 +1,4 @@
-- name: role for webserver and appserver
+- name: role for multios2
   host: all
   become: yes
   roles:
