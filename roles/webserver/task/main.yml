@@ -10,7 +10,8 @@
     force: yes
   notify:
     - httpd
-    
+      
+      
 - name: copy html content
   copy:
     src: index.html
