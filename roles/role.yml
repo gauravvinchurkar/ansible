@@ -1,8 +1,7 @@
-- name: role for multios2
+- name: role for student application
   hosts: all
   become: yes
   roles:
-    - multios2
-    #- webserver
-    #- appserver
+    - webserver
+    - appserver
     
